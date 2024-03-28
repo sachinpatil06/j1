@@ -1,4 +1,4 @@
-public class Student_Info{
+public class Student_Info extends Course{
 
 String name="Sachin patil";
 
@@ -34,6 +34,10 @@ public static void main(String[] args){
 Student_Info s = new Student_Info();
 
 s.display();
+s.DisplayMarks();
+
+s.displaylessthanfourty();
+
 }
 }
 
